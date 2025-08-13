@@ -59,11 +59,6 @@ python3 -m http.server 8000
 └── README.md           # This file
 ```
 
-## Easter Eggs
-
-- Press **Ctrl+Shift+C** for a surprise glitch effect
-- Check the browser console for fun messages
-
 
 ## Contributing
 
