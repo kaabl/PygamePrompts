@@ -71,4 +71,4 @@ Feel free to submit issues, feature requests, or pull requests to improve the sp
 
 
 
-** Happy Prompting! May the wheel guide your AI interactions! **
+**Happy Prompting! May the wheel guide your AI interactions!**
