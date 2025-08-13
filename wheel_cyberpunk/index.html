@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Prompting Wheel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">PROMPTING TECHNIQUE WHEEL</h1>
+            <div class="subtitle">Select your next AI prompting strategy</div>
+        </div>
+        
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="600" height="600"></canvas>
+            <div class="pointer"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="spinButton" class="spin-btn">
+                <span class="btn-text">SPIN THE WHEEL</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+        
+        <div id="result" class="result hidden">
+            <div class="result-content">
+                <h2 id="resultTitle">SELECTED TECHNIQUE</h2>
+                <p id="resultDescription"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="sound.js"></script>
+    <script src="wheel.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
