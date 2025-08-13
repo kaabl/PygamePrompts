@@ -30,7 +30,7 @@ A **fun, interactive spinning wheel** that randomly selects AI prompting techniq
 
 ```bash
 # Navigate to the project directory
-cd /path/to/PygamePrompts
+cd /path/to/PygamePrompts/wheel_cyberpunk/
 
 # Start a simple HTTP server
 python3 -m http.server 8000
