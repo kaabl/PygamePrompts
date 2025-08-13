@@ -63,7 +63,7 @@ python3 -m http.server 8000
 
 - Press **Ctrl+Shift+C** for a surprise glitch effect
 - Check the browser console for fun messages
-- 
+
 
 ## Contributing
 
