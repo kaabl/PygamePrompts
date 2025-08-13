@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnival Prompting Wheel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎪 Carnival Prompting Wheel 🎪</h1>
+        <p class="subtitle">Click the wheel to spin and discover your prompting technique!</p>
+        
+        <div class="wheel-container">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <div class="pointer"></div>
+            
+            <!-- HTML Text Overlays for Wheel Segments -->
+            <div class="wheel-text-overlay" id="segment-0">
+                <span class="segment-text">Reflection</span>
+            </div>
+            <div class="wheel-text-overlay" id="segment-1">
+                <span class="segment-text">Self-Consistency</span>
+            </div>
+            <div class="wheel-text-overlay" id="segment-2">
+                <span class="segment-text">Chain of Thought</span>
+            </div>
+            <div class="wheel-text-overlay" id="segment-3">
+                <span class="segment-text">Chain of Knowledge</span>
+            </div>
+            <div class="wheel-text-overlay" id="segment-4">
+                <span class="segment-text">Rephrase & Respond</span>
+            </div>
+        </div>
+        
+        <button id="spinBtn" class="spin-button">🎯 SPIN THE WHEEL! 🎯</button>
+        
+        <div id="result" class="result hidden">
+            <h2 id="resultTitle"></h2>
+            <p id="resultDescription"></p>
+        </div>
+        
+        <div class="techniques-info">
+            <h3>Available Techniques:</h3>
+            <div class="technique-grid">
+                <div class="technique-card" data-technique="rephrase">
+                    <h4>🔄 Rephrase & Respond</h4>
+                    <p>Clarify goals and deliver precise solutions</p>
+                </div>
+                <div class="technique-card" data-technique="reflection">
+                    <h4>🤔 Reflection</h4>
+                    <p>Review and improve with structured feedback</p>
+                </div>
+                <div class="technique-card" data-technique="consistency">
+                    <h4>⚖️ Self-Consistency</h4>
+                    <p>Compare alternatives and choose the best approach</p>
+                </div>
+                <div class="technique-card" data-technique="chain-of-thought">
+                    <h4>🧠 Chain of Thought</h4>
+                    <p>Plan then solve with clear reasoning</p>
+                </div>
+                <div class="technique-card" data-technique="chain-of-knowledge">
+                    <h4>📚 Chain of Knowledge</h4>
+                    <p>Map concepts to implementation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <audio id="spinSound" src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" preload="auto"></audio>
+    <audio id="winSound" src="https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav" preload="auto"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
