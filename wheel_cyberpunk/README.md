@@ -7,44 +7,17 @@ A **fun, interactive spinning wheel** that randomly selects AI prompting techniq
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## Features
-
-- **Realistic Physics**: Smooth spinning with friction-based deceleration
-- **Cyberpunk Design**: Neon colors, glow effects, and futuristic styling
-- **Subtle Sound Effects**: Spin sounds and result announcements
-- **Responsive**: Works on desktop, tablet, and mobile
-- **⌨Keyboard Controls**: Press SPACE to spin
-- **Interactive**: Click, touch, or keyboard input
 
 ## Available Prompting Techniques
 
 1. **Rephrase & Respond** - Restate the task and confirm understanding
-2. **Plan-then-Code** - Create structured implementation plans
+2. **Chain of Thought** - Create structured implementation plans
 3. **Chain of Knowledge** - Leverage relevant knowledge with citations
 4. **Reflection** - Self-review against checklists
 5. **Self-Consistency** - Generate alternatives and choose the best
 
 ## How to Run
-
-### Option 1: Simple Local Server (Recommended)
-
-```bash
-# Navigate to the project directory
-cd /path/to/PygamePrompts/wheel_cyberpunk/
-
-# Start a simple HTTP server
-python3 -m http.server 8000
-
-# Open your browser and go to:
-# http://localhost:8000
-```
-
-### Option 2: Python HTTP Server
-
-```bash
-# If you have Python 3
-python3 -m http.server 8000
-```
+Simply open the index.html file in your browser of choice!
 
 
 ## Technical Details
@@ -52,17 +25,12 @@ python3 -m http.server 8000
 ### Files Structure
 ```
 ├── index.html          # Main HTML structure
-├── style.css           # Cyberpunk styling and animations
+├── style.css           # Styling and animations
 ├── wheel.js            # Wheel physics and rendering engine
 ├── sound.js            # Audio management system
 ├── main.js             # Application controller
 └── README.md           # This file
 ```
-
-## Easter Eggs
-
-- Press **Ctrl+Shift+C** for a surprise glitch effect
-- Check the browser console for fun messages
 
 
 ## Contributing
