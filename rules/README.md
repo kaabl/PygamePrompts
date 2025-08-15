@@ -8,6 +8,7 @@ Copy these rules into your Cursor global settings during the workshop:
 4. Please always output a file in TOTAL if you changed it, and please always implement the ENTIRE feature.
 
 optional:
+
 5. Use clear, beginner-friendly explanations when explaining code concepts.
 6. Provide step-by-step guidance when implementing features.
 7. Always include necessary imports and dependencies in your code.
