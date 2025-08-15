@@ -12,7 +12,7 @@ Notes for facilitators:
 ### 1) Rephrase & Clarify the Task
 
 **Goal:** Align on scope and constraints before anything else.
-**Technique:** Rephrase & respond 
+**Technique:** Rephrase & Respond 
 
 Prompt:
 ```
@@ -41,7 +41,7 @@ Keep each step to 1 sentence. Ask me to “confirm or adjust” before coding. D
 
 ### 3) Bootstrap minimal window
 
-**Goal:** Introduce just enough pygame to open/close a window cleanly.
+**Goal:** Introduce just enough pygame to open/close a window cleanly to prove the environment is ready
 **Technique:** Chain of Knowledge
 
 Prompt:
@@ -56,7 +56,7 @@ Keep code very short and well-commented. No game logic yet.
 ### 4) Implement core entities
 
 **Goal:** Create snake, food, and config with deterministic methods.
-**Technique:** Modular design 
+**Technique:** -
 
 Prompt:
 ```
@@ -68,10 +68,10 @@ Keep logic grid-based and deterministic, with lightweight docstrings. Show only 
 ```
 ---
 
-### 5) Build Minimal Playable Game
+### 5) Build Minimal Playable Game 
 
-**Goal:** Wire up the first fully playable loop.  
-**Technique:** Plan → Code  
+**Goal:** Wire up the first fully playable loop by assembling the previous built core entities
+**Technique:** Chain of Thoughts 
 
 Prompt:
 ```
@@ -87,9 +87,9 @@ Keep rendering simple rectangles; no fonts or HUD yet.
 
 ---
 
-### 6) Quick QA & Guardrails
+### 6) Quality Check and Bug-Prevention
 
-**Goal:** Catch common pitfalls and fix input handling issues.  
+**Goal:** Catch common pitfalls and fix small issues.  
 **Technique:** Reflection 
 
 Prompt:
@@ -108,7 +108,7 @@ Report changes in 4–6 bullets, then show diffs only.
 ### 7) Add Simple User-Interface
 
 **Goal:** Minimal UI without performance regressions 
-**Technique:** Incremental enhancement  
+**Technique:** -  
 
 Prompt:
 ```
