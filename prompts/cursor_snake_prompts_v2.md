@@ -81,8 +81,9 @@ Requirements:
 - Spawn food off-snake
 - Eat food → grow + score++
 - Detect wall or self collision → game over state, R to restart
+- Let snake "die" when hittign the boarders but not leave the rectangle window
 
-Keep rendering simple rectangles; no fonts or HUD yet.
+Keep rendering simple rectangles; no fonts or UI yet.
 ```
 
 ---
@@ -115,6 +116,7 @@ Prompt:
 Add a simple UI:
 - Top-left: Score
 - Bottom-center: "Arrows to move • R to restart"
+- Message, if the snake hit a wall or itself
 
 Use pygame.font (initialize once), render efficiently, and keep draw code clean. Show only changed files.
 ```
@@ -127,8 +129,9 @@ Use pygame.font (initialize once), render efficiently, and keep draw code clean.
 
 Prompt:
 ```
-Propose 4 small, beginner-friendly features (e.g., pause with P, wrap-around mode, speed ramp every N apples, grid border). Give 1–2 sentence rationale for each. 
+Propose 4 small, beginner-friendly features (e.g., pause with P, wrap-around mode, speed ramp every N apples, grid border, periodic boundaries, ...) and a fancy, more sophisticated design. Give 1–2 sentence rationale for each. 
 Choose the best 1–2 for now (favor clarity and low bug risk), then implement them with minimal diffs and a 5-step manual test plan.
+Provide all changes in one, altered script - not multiple single changes.
 ```
 ---
 
