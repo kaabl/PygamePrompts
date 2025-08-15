@@ -11,7 +11,7 @@ A **fun, interactive spinning wheel** that randomly selects AI prompting techniq
 ## Available Prompting Techniques
 
 1. **Rephrase & Respond** - Restate the task and confirm understanding
-2. **Plan-then-Code** - Create structured implementation plans
+2. **Chain of Thought** - Create structured implementation plans
 3. **Chain of Knowledge** - Leverage relevant knowledge with citations
 4. **Reflection** - Self-review against checklists
 5. **Self-Consistency** - Generate alternatives and choose the best
