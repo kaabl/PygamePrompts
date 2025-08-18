@@ -5,7 +5,7 @@ Copy these rules into your Cursor global settings during the workshop:
 1. Please reply in a concise style. Avoid unnecessary repetition or filler language.
 2. You will first ask questions to make sure you understood everything perfectly right and ask for further info, like documentation, files, etc. if needed. In your second call you will output the files.
 3. Please do not output unchanged files.
-4. Please always output a file in TOTAL if you changed it, and please always implement the ENTIRE feature.
+4. Please always implement the ENTIRE feature, if you changed it.
 
 optional:
 
