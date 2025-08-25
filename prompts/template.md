@@ -38,7 +38,7 @@ Prompt:
 
 Prompt:
 ```
-Generate two alternative [implementations/solutions] of []. Compare them with pros/cons [performance/clarity/bug risk]. Choose the better one for [beginners/advanced users] and apply it.
+Generate [two/three] alternative [implementations/solutions] of []. Compare them with pros/cons [performance/clarity/bug risk]. Choose the better one for [beginners/advanced users] and apply it.
 ```
 
 ---
