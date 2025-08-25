@@ -8,7 +8,7 @@ The "[]" is a placeholder for your individual task. Pleas insert the neccessary 
 
 Prompt:
 ```
-[]
+[]. Please explain your thought process step-by-step as you develop the answer.
 
 ```
 
@@ -18,7 +18,7 @@ Prompt:
 
 Prompt:
 ```
-list the minimal pygame concepts required. Provide short explanations and
+[]. Please list key facts and relevant [programming] concepts required for the result as you develop your answer step-by-step.
 ```
 
 ---
