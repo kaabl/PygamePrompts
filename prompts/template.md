@@ -29,7 +29,7 @@ list the minimal pygame concepts required. Provide short explanations and
 
 Prompt:
 ```
-Review the current code against this checklist and fix issues you find
+[]. Please self-review your answer for [mistakes, bugs, edge cases, missing features].
 ```
 
 ---
@@ -38,7 +38,7 @@ Review the current code against this checklist and fix issues you find
 
 Prompt:
 ```
-Generate two alternative [implementations/solutions] of [x]. Compare them with pros/cons (performance, clarity, bug risk). Choose the better one for [beginners/advanced users] and apply it.
+Generate two alternative [implementations/solutions] of []. Compare them with pros/cons [performance/clarity/bug risk]. Choose the better one for [beginners/advanced users] and apply it.
 ```
 
 ---
@@ -49,7 +49,7 @@ Generate two alternative [implementations/solutions] of [x]. Compare them with p
 
 Prompt:
 ```
-Restate [] and the remaining polish items as a checklist. Propose a short list of polish tasks [e.g. add if available].
+Please restate the following task so that it includes all neccessary instructions in order to write functional code: []. You can add missing polishing items as a checklist [e.g. ...].
 ```
 
 ---
