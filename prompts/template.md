@@ -1,7 +1,10 @@
 ## Prompt Template
 
-Use this template to customize your LLM prompt accordingly to the following techniques: rephrase & respond, chain of thought (plan-then-code), chain of knowledge, reflection, self-consistency, and more.
+Use this template to customize your LLM prompt according to the following techniques: rephrase & respond, chain of thought, chain of knowledge, reflection, and self-consistency.
+
 The "[]" is a placeholder for your individual task. Pleas insert the neccessary information.
+
+
 
 
 ### 1) Chain of thought 
