@@ -11,12 +11,11 @@ Notes for facilitators:
 
 ### 1) Rephrase & Clarify the Task
 
-**Goal:** Align on scope and constraints before anything else.
-**Technique:** Rephrase & Respond 
+**Goal:** Define the task, constraints and open questions before coding.
 
 Prompt:
 ```
-I want to build a simple Snake game in Python using pygame. Restate the task in your own words, list key constraints (beginner-friendly, minimal dependencies, readable code), 
+We want to create a simple Snake game in Python using pygame. Restate the task in your own words, highlight important constraints (beginner-friendly, minimal dependencies, readable code), 
 and write 5–7 clarifying questions about scope (grid size, controls, restart behavior, scoring, file layout). Finish with a short, bullet outline of the core components we’ll need. Do NOT write any code.
 ```
 
@@ -24,8 +23,7 @@ and write 5–7 clarifying questions about scope (grid size, controls, restart b
 
 ### 2) Generate first Implementation Plan 
 
-**Goal:** Produce a concrete but small plan the user can approve.
-**Technique:** Chain of Thoughts
+**Goal:** Outline a small, reviewable plan for a minimal playable version. 
 
 Prompt:
 ```
@@ -41,22 +39,20 @@ Keep each step to 1 sentence. Ask me to “confirm or adjust” before coding. D
 
 ### 3) Bootstrap minimal window
 
-**Goal:** Introduce just enough pygame to open/close a window cleanly to prove the environment is ready
-**Technique:** Chain of Knowledge
+**Goal:** Show that pygame is working by opening and closing a simple window.
 
 Prompt:
 ```
-Briefly list the pygame basics we need (init/quit, display, event loop, Clock.tick) in 4–6 bullets. Then scaffold ONLY:
-- requirements.txt (pygame)
+Briefly list the essential pygame elements needed to open and close a window (init/quit, display, event loop, Clock.tick) in 4–6 bullets. Then scaffold ONLY:
+- requirements.txt including pygame
 - main.py that opens a window and closes on QUIT
-Keep code very short and well-commented. No game logic yet.
+Keep code very short, readable and well-commented. No game logic yet.
 ```
 ---
 
 ### 4) Implement core entities
 
-**Goal:** Create snake, food, and config with deterministic methods.
-**Technique:** -
+**Goal:** Define the main building blocks of the game (snake, food, configuration) with simple, predictable logic.
 
 Prompt:
 ```
@@ -71,7 +67,6 @@ Keep logic grid-based and deterministic, with lightweight docstrings. Show only 
 ### 5) Build Minimal Playable Game 
 
 **Goal:** Wire up the first fully playable loop by assembling the previous built core entities
-**Technique:** Chain of Thoughts 
 
 Prompt:
 ```
@@ -90,8 +85,7 @@ Keep rendering simple rectangles; no fonts or UI yet.
 
 ### 6) Quality Check and Bug-Prevention
 
-**Goal:** Catch common pitfalls and fix small issues.  
-**Technique:** Reflection 
+**Goal:** Review the code for common pitfalls and ensure small issues are handled early.  
 
 Prompt:
 ```
@@ -108,8 +102,7 @@ Report changes in 4–6 bullets, then show diffs only.
 
 ### 7) Add Simple User-Interface
 
-**Goal:** Minimal UI without performance regressions 
-**Technique:** -  
+**Goal:** Display minimal user interface (UI), without adding unnecessary complexity or slowing down performance.
 
 Prompt:
 ```
@@ -124,8 +117,7 @@ Use pygame.font (initialize once), render efficiently, and keep draw code clean.
 
 ### 8) Brainstorm & Add Features
 
-**Goal:** Encourage creativity while keeping changes safe.  
-**Technique:** Chain of Knowledge  
+**Goal:** Explore new ideas and extend the game with safe, beginner-friendly enhancements.
 
 Prompt:
 ```
@@ -137,8 +129,7 @@ Provide all changes in one, altered script - not multiple single changes.
 
 ### 9) Final Tidy & Run Instructions
 
-**Goal:** Clean up code and make it easy to run.  
-**Technique:** Self-consistency review
+**Goal:** Clean up code and provide clear steps so anyone can run the game easily. 
 
 Prompt:
 ```
