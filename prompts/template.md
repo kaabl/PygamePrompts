@@ -2,9 +2,7 @@
 
 Use this template to customize your LLM prompt according to the following techniques: rephrase & respond, chain of thought, chain of knowledge, reflection, and self-consistency.
 
-The "[]" is a placeholder for your individual task. Pleas insert the neccessary information.
-
-
+The "[]" is a placeholder for your individual task. Please insert the necessary information.
 
 
 ### 1) Chain of thought 
@@ -52,7 +50,7 @@ Generate [two/three] alternative [implementations/solutions] of []. Compare them
 
 Prompt:
 ```
-Please restate the following task so that it includes all neccessary instructions in order to write functional code: []. You can add missing polishing items as a checklist [e.g. ...].
+Please restate the following task so that it includes all necessary instructions in order to write functional code: []. You can add missing polishing items as a checklist [e.g. ...].
 ```
 
 ---
