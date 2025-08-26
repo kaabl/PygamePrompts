@@ -54,3 +54,15 @@ Please restate the following task so that it includes all necessary instructions
 ```
 
 ---
+
+### 6) [CLEAR](https://aipromptsx.com/prompts/frameworks/clear)
+
+
+Prompt:
+```
+Context: [Describe the situation or background information]
+Language: [Specify tone, style, or specific terminology preferences]
+Examples: [Provide references or samples to guide the output]
+Audience: [Define who will receive or benefit from this content]
+Request: [Clearly state what you want created]
+```
