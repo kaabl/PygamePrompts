@@ -17,34 +17,42 @@ class Wheel {
         this.sections = [
             {
                 name: "Rephrase & Respond",
-                description: "Restate the task in your own words and confirm understanding before proceeding",
+                description: "Restate the task in your own words to confirm understanding before proceeding",
                 color: "#ff00ff",
                 glowColor: "#ff66ff"
             },
             {
                 name: "Chain of Thought",
-                description: "Create a structured implementation plan before writing any code",
+                description: "Explain your thought process step-by-step as you develop the answer",
                 color: "#00ffff",
                 glowColor: "#66ffff"
             },
             {
                 name: "Chain of Knowledge",
-                description: "Leverage relevant knowledge and provide citations when helpful",
+                description: "List key facts and relevant programming concepts step-by-step as you build the answer",
                 color: "#00ff00",
                 glowColor: "#66ff66"
             },
             {
                 name: "Reflection",
-                description: "Self-review code against checklists and fix identified issues",
+                description: "Self-review the answer for mistakes, bugs, edge cases, and missing features",
                 color: "#ffff00",
                 glowColor: "#ffff66"
             },
             {
                 name: "Self-Consistency",
-                description: "Generate alternatives, compare them, and choose the best approach",
+                description: "Generate alternative implementations/solutions, compare them, and choose the best approach",
                 color: "#ff6600",
                 glowColor: "#ff9966"
-            }
+            },
+            /*
+            {
+                name: "CLEAR",
+                description: "Specify Context, preferred Language/Style, Examples, Audience, and a clear Request to guide the output.",
+                color: "#8a2be2",
+                glowColor: "#b388ff"
+              }
+            */
         ];
         
         this.sectionAngle = (2 * Math.PI) / this.sections.length;
