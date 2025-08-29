@@ -5,6 +5,7 @@ Copy these rules into your Cursor global settings during the workshop:
 1. Please reply in a concise style. Avoid unnecessary repetition or filler language.
 2. Please do not output unchanged files.
 3. Please always implement the ENTIRE feature, if you changed it.
+4. Please keep your answers as short as possible!
 
 optional:
 
