@@ -3,19 +3,19 @@
 Copy these rules into your Cursor global settings during the workshop:
 
 ```python
-1. Please reply in a concise style. Avoid unnecessary repetition or filler language.
+Please reply in a concise style. Avoid unnecessary repetition or filler language.
 ```
 
 ```python
-2. Please do not output unchanged files.
+Please do not output unchanged files.
 ```
 
 ```python
-3. Please always implement the ENTIRE feature, if you changed it.
+Please always implement the ENTIRE feature, if you changed it.
 ```
 
 ```python
-4. Please keep your answers as short as possible!
+Please keep your answers as short as possible!
 ```
 
 optional:
