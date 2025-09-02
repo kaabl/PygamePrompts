@@ -10,6 +10,14 @@ This repository contains prompts used for the **ScaDS.AI General Assembly 2025**
 
 **Learning Objectives:** Explore different prompting techniques for effective code generation
 
+
+## Workshop Materials
+**Cursor:** https://cursor.com/downloads
+
+**Pad:** https://pad.riseup.net/p/TrS8zBZO1I1feDRa_8ss
+
+**Slides:** TODO
+
 ## Contributors
 
 - Lea Gihlein
