@@ -30,7 +30,7 @@ cd Downloads/
  chmod +x Cursor-1.5.9-x86_64.AppImage
 ```
 
-3. To make Cursor accessible system-wide, move file to a directory in your PATH, e.g.
+3. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
 ```bash
 sudo mv Cursor-1.5.9-x86_64.AppImage /opt/cursor/cursor.appimage
 ```
