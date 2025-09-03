@@ -32,7 +32,7 @@ cd Downloads/
 
 3. To make Cursor accessible system-wide, move file to a directory in your PATH, e.g.
 ```bash
-sudo mv Cursor-1.5.9-x86_64.AppImage /opt/cursor.appimage
+sudo mv Cursor-1.5.9-x86_64.AppImage /opt/cursor/cursor.appimage
 ```
 
 4. To set up a cursor icon, download the logo for fee from [here](https://lobehub.com/de/icons/cursor): 
