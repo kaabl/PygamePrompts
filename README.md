@@ -12,7 +12,7 @@ This repository contains prompts used for the **ScaDS.AI General Assembly 2025**
 
 
 ## Workshop Materials
-- [Cursor Download](https://cursor.com/downloads)
+- [Cursor Download](https://cursor.com/home)
 
 - [Community Pad](https://pad.riseup.net/p/TrS8zBZO1I1feDRa_8ss)
 
