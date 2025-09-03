@@ -49,6 +49,16 @@ sudo nano usr/share/applications/cursor.desktop
 ```bash             
 [Desktop Entry]
 Name=cursor
+Exec=/opt/cursor/cursor.appimage
+Icon=/opt/cursor/cursor.png
+Type=Application
+Categories=Development;
+```
+
+In case Cursor doesn't launch try:
+```bash             
+[Desktop Entry]
+Name=cursor
 Exec=/opt/cursor/cursor.appimage --no-sandbox
 Icon=/opt/cursor/cursor.png
 Type=Application
