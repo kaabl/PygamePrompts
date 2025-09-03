@@ -35,7 +35,10 @@ cd Downloads/
 sudo mv Cursor-1.5.9-x86_64.AppImage /opt/cursor/cursor.appimage
 ```
 
-4. To set up a cursor icon, download the logo for fee from [here](https://lobehub.com/de/icons/cursor): 
+4. To set up a cursor icon, download the logo for fee from [here](https://lobehub.com/de/icons/cursor) and then move it to the same directory:
+ ```bash
+sudo mv cursor.png /opt/cursor/
+``` 
 
 5. Create a global desktop shortcut (alternative for local shortcut: nano ~/.local/share/applications/cursor.desktop):
 ```bash
