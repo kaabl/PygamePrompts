@@ -17,8 +17,8 @@ This repository contains prompts used for the **ScaDS.AI General Assembly 2025**
 
 - Slides: TODO
 
-## Linux Cursor Installation 
-Please copy the commands one-by-one to your terminal and press Enter. You might need to change the path/file names.
+## Cursor Installation (Linux)
+Please copy the commands one-by-one to your terminal and press Enter to execute. You might need to change the path/file names.
 
 1. Navigate to directory of download file, e.g.: 
 ```bash
@@ -65,6 +65,14 @@ Type=Application
 Categories=Development;
 ```
 
+## Create conda environment
+Please copy the commands one-by-one to your terminal and press Enter to execute. 
+```bash
+conda create --name PygamePrompts python=3.10 pygame
+```
+```bash
+conda activate PygamePrompts
+```
 
 ## Contributors
 
