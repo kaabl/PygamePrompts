@@ -68,10 +68,17 @@ Categories=Development;
 ## Create conda environment
 Please copy the commands one-by-one to your terminal and press Enter to execute. 
 ```bash
-conda create --name PygamePrompts python=3.10 pygame
+conda create --name PygamePrompts python=3.11
 ```
 ```bash
 conda activate PygamePrompts
+```
+If activation doesn't work use command below, and try activating environment again.
+```bash
+conda init powershell
+```
+```bash
+pip install pygame
 ```
 
 ## Contributors
