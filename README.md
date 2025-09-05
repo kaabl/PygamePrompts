@@ -73,7 +73,7 @@ conda create --name PygamePrompts python=3.11
 ```bash
 conda activate PygamePrompts
 ```
-If activation doesn't work use command below, and try activating environment again.
+If activation doesn't work use the command below, and try activating environment again.
 ```bash
 conda init powershell
 ```
