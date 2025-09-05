@@ -88,13 +88,17 @@ After activating conda einvornment use command below to get the explicit path:
 ```bash
 $env:CONDA_PREFIX
 ```
-Then create a crusor rule that tells cursor to always use this path. Before starting a new chat, add these rules to the context. Then it works and Cursor uses correct path to execute scripts.
+Then create a crusor rule that tells cursor to always use this path.
 ```bash
 ---
 description: ALWAYS use this environment C:\Users\kabjesz\AppData\Local\anaconda3\envs\PygamePrompts to execute scripts
 globs:
 alwaysApply: true
 ---
+```
+Before starting a new chat, add these rules to the context. Then tell cursor to run main.py in the main chat. After doing this once you can also execute main.py from Cursor command line with the command below.
+```bash
+python main.py
 ```
 
 additional info: it might also help to launch cursor from Miniforge Prompt with the command 'cursor' (didn't work for Luisa)
