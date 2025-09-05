@@ -102,7 +102,11 @@ Please keep your answers as short as possible!
 ```
 
 ## Run main.py Bug
-If running the main.py does not work (this will likely only occur on Windows due to Cursor bug) use the solution below found in https://github.com/cursor/cursor/issues/1791:
+
+1. First try: Strg + Shift + P and type "Select Interpreter". Then select the conda environment.
+
+
+2. If running the main.py does not work (this will likely only occur on Windows due to Cursor bug) use the solution below found in https://github.com/cursor/cursor/issues/1791:
 
 After activating conda einvornment use command below to get the explicit path:
 ```bash
