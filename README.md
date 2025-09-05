@@ -81,6 +81,22 @@ conda init powershell
 pip install pygame
 ```
 
+## Run main.py Bug
+If running the main.py does not work (this will likely only occur on Windows due to Cursor bug) use the solution below found in https://github.com/cursor/cursor/issues/1791:
+
+After activating conda einvornment use command below to get the explicit path:
+```bash
+$env:CONDA_PREFIX
+```
+Then create a crusor rule that tells cursor to always use this path. Before starting a new chat, add these rules to the context. Then it works and Cursor uses correct path to execute scripts.
+```bash
+---
+description: ALWAYS use this environment C:\Users\kabjesz\AppData\Local\anaconda3\envs\PygamePrompts to execute scripts
+globs:
+alwaysApply: true
+---
+```
+
 ## Contributors
 
 - Lea Gihlein
