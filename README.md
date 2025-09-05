@@ -98,7 +98,7 @@ Please always implement the ENTIRE feature, if you changed it.
 ```
 
 ```bash
-Please keep your answers as short as possible!
+ALWAYS keep your answers as short as possible!
 ```
 
 ## Run main.py Bug
