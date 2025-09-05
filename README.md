@@ -81,6 +81,26 @@ conda init powershell
 pip install pygame
 ```
 
+## Cursor Global User Rules
+
+Copy these rules into your Cursor global settings during the workshop:
+
+```bash
+Please reply in a concise style. Avoid unnecessary repetition or filler language.
+```
+
+```bash
+Please do not output unchanged files.
+```
+
+```bash
+Please always implement the ENTIRE feature, if you changed it.
+```
+
+```bash
+Please keep your answers as short as possible!
+```
+
 ## Run main.py Bug
 If running the main.py does not work (this will likely only occur on Windows due to Cursor bug) use the solution below found in https://github.com/cursor/cursor/issues/1791:
 
