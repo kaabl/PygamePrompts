@@ -97,6 +97,8 @@ alwaysApply: true
 ---
 ```
 
+additional info: it might also help to launch cursor from Miniforge Prompt with the command 'cursor' (didn't work for Luisa)
+
 ## Contributors
 
 - Lea Gihlein
