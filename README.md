@@ -30,6 +30,13 @@ cd Downloads/
  chmod +x Cursor-1.5.11-x86_64.AppImage
 ```
 
+3. Now yoz can launch cursor with:
+```bash
+./Cursor-1.5.11-x86_64.AppImage
+```
+
+
+## Cursor Set up with Logo (Linux)
 3. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
 ```bash
 sudo mv Cursor-1.5.11-x86_64.AppImage /opt/cursor/cursor.appimage
