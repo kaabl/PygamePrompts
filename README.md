@@ -37,22 +37,22 @@ cd Downloads/
 
 
 ## Cursor Set up with Logo (Linux)
-3. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
+1. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
 ```bash
 sudo mv Cursor-1.5.11-x86_64.AppImage /opt/cursor/cursor.appimage
 ```
 
-4. To set up a cursor icon, download the logo for fee from [here](https://lobehub.com/de/icons/cursor) and then move it to the same directory:
+2. To set up a cursor icon, download the logo for fee from [here](https://lobehub.com/de/icons/cursor) and then move it to the same directory:
  ```bash
 sudo mv cursor.png /opt/cursor/
 ``` 
 
-5. Create a global desktop shortcut (alternative for local shortcut: nano ~/.local/share/applications/cursor.desktop):
+3. Create a global desktop shortcut (alternative for local shortcut: nano ~/.local/share/applications/cursor.desktop):
 ```bash
 sudo nano usr/share/applications/cursor.desktop
 ```
 
-6. Add file content & specify icon file path, e.g.:
+4. Add file content & specify icon file path, e.g.:
 ```bash             
 [Desktop Entry]
 Name=cursor
