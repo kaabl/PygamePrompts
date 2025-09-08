@@ -47,6 +47,26 @@ conda activate PygamePrompts
 pip install pygame
 ```
 
+## Cursor Global User Rules
+
+Copy these rules into your Cursor global settings during the workshop:
+
+```bash
+Please reply in a concise style. Avoid unnecessary repetition or filler language.
+```
+
+```bash
+Please do not output unchanged files.
+```
+
+```bash
+Please always implement the ENTIRE feature, if you changed it.
+```
+
+```bash
+ALWAYS keep your answers as short as possible!
+```
+
 ## Cursor Set up with Logo (Linux)
 1. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
 ```bash
@@ -81,26 +101,6 @@ Exec=/opt/cursor/cursor.appimage --no-sandbox
 Icon=/opt/cursor/cursor.png
 Type=Application
 Categories=Development;
-```
-
-## Cursor Global User Rules
-
-Copy these rules into your Cursor global settings during the workshop:
-
-```bash
-Please reply in a concise style. Avoid unnecessary repetition or filler language.
-```
-
-```bash
-Please do not output unchanged files.
-```
-
-```bash
-Please always implement the ENTIRE feature, if you changed it.
-```
-
-```bash
-ALWAYS keep your answers as short as possible!
 ```
 
 ## Run main.py Bug
