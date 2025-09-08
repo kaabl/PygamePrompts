@@ -80,10 +80,6 @@ conda create --name PygamePrompts python=3.11
 ```bash
 conda activate PygamePrompts
 ```
-If activation doesn't work use the command below, and try activating environment again.
-```bash
-conda init powershell
-```
 ```bash
 pip install pygame
 ```
@@ -130,6 +126,11 @@ alwaysApply: true
 Before starting a new chat, add these rules to the context. Then tell cursor to run main.py in the main chat. After doing this once you can also execute main.py from Cursor command line with the command below.
 ```bash
 python main.py
+```
+
+3. If `conda activate PygamePrompts doesn't work try: 
+```bash
+conda init powershell
 ```
 
 additional info: it might also help to launch cursor from Miniforge Prompt with the command 'cursor' (didn't work for Luisa)
