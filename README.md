@@ -27,7 +27,7 @@ cd Downloads/
 
 2. Make file executable:
 ```bash
- chmod +x Cursor-1.5.9-x86_64.AppImage
+ chmod +x Cursor-1.5.11-x86_64.AppImage
 ```
 
 3. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
