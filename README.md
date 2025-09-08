@@ -30,7 +30,7 @@ cd Downloads/
  chmod +x Cursor-1.5.11-x86_64.AppImage
 ```
 
-3. Now yoz can launch cursor with:
+3. Now you can launch cursor with:
 ```bash
 ./Cursor-1.5.11-x86_64.AppImage
 ```
