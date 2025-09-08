@@ -35,6 +35,17 @@ cd Downloads/
 ./Cursor-1.5.11-x86_64.AppImage
 ```
 
+## Create conda environment
+Please copy the commands one-by-one to your Cursor terminal and press Enter to execute. When asked to "Proceed ([y]/n)?" during step 1, type "y".
+```bash
+conda create --name PygamePrompts python=3.11
+```
+```bash
+conda activate PygamePrompts
+```
+```bash
+pip install pygame
+```
 
 ## Cursor Set up with Logo (Linux)
 1. To make Cursor accessible system-wide, move the file to a directory in your PATH, e.g.
@@ -70,18 +81,6 @@ Exec=/opt/cursor/cursor.appimage --no-sandbox
 Icon=/opt/cursor/cursor.png
 Type=Application
 Categories=Development;
-```
-
-## Create conda environment
-Please copy the commands one-by-one to your Cursor terminal and press Enter to execute. When asked to "Proceed ([y]/n)?" during step 1, type "y".
-```bash
-conda create --name PygamePrompts python=3.11
-```
-```bash
-conda activate PygamePrompts
-```
-```bash
-pip install pygame
 ```
 
 ## Cursor Global User Rules
