@@ -52,7 +52,7 @@ sudo mv cursor.png /opt/cursor/
 sudo nano usr/share/applications/cursor.desktop
 ```
 
-4. Add file content & specify icon file path, e.g.:
+4. Paste this into the file & specify icon file path, e.g.:
 ```bash             
 [Desktop Entry]
 Name=cursor
