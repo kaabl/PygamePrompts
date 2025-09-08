@@ -73,7 +73,7 @@ Categories=Development;
 ```
 
 ## Create conda environment
-Please copy the commands one-by-one to your Cursor terminal and press Enter to execute. 
+Please copy the commands one-by-one to your Cursor terminal and press Enter to execute. When asked to "Proceed ([y]/n)?" during step 1, type "y".
 ```bash
 conda create --name PygamePrompts python=3.11
 ```
