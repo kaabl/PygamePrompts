@@ -15,8 +15,7 @@ This repository contains materials used for the **ScaDS.AI General Assembly 2025
 ## Workshop Materials
 - [Cursor Download](https://cursor.com/home)
 - [Community Pad](https://pad.riseup.net/p/TrS8zBZO1I1feDRa_8ss)
-
-- Slides: coming soon
+- Slides: [here](https://github.com/kaabl/PygamePrompts/tree/main/slides)
 
 ## Cursor Installation (Linux)
 Please copy the commands one-by-one to your terminal and press Enter to execute. You might need to change the path/file names.
