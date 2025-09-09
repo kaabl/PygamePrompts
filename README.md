@@ -1,4 +1,5 @@
 # PygamePrompts
+## kaabl/PygamePrompts 
 
 This repository contains materials used for the **ScaDS.AI General Assembly 2025** 2-hour workshop **"Coding Effectively with AI: Getting Started with Cursor and Copilot"**.
 
