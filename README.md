@@ -16,7 +16,7 @@ This repository contains materials used for the **ScaDS.AI General Assembly 2025
 - [Cursor Download](https://cursor.com/home)
 - [Community Pad](https://pad.riseup.net/p/TrS8zBZO1I1feDRa_8ss)
 - [Slides](https://github.com/kaabl/PygamePrompts/tree/main/slides)
-- [Prompting template](https://github.com/kaabl/PygamePrompts/blob/main/prompts/template.md)
+- [Prompting Techniques Template](https://github.com/kaabl/PygamePrompts/blob/main/prompts/template.md)
 
 ## Cursor Installation (Linux)
 Please copy the commands one-by-one to your terminal and press Enter to execute. You might need to change the path/file names.
